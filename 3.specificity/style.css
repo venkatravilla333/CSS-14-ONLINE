@@ -1,0 +1,23 @@
+
+
+
+#myid {
+  color: rgb(222, 180, 55);
+}
+
+#parent  p{
+  color: aqua;
+}
+
+.myclass{
+  color: brown;
+}
+
+p{
+  color: blue;
+}
+
+*{
+  color: red ;
+}
+

@@ -44,3 +44,51 @@
 /* #grand-parent ~ p{
    color: red;
 } */
+
+
+/* psuedo class selector */
+
+/* h1:hover{
+  color: blue;
+  background:yellow;
+  font-size: 20px;
+} */
+
+/* psuedo element selector */
+
+/* h1::first-letter{
+  color: red;
+} */
+
+/* h1::first-line{
+  color: red;
+} */
+
+/* h1::before{
+  content: "sachin";
+}
+h1::after{
+  content: "kohli";
+} */
+
+/* group selector */
+
+/* #para, .myclass, div{
+  color: red;
+} */
+
+/* attribute selectors */
+
+/* [title="para"]{
+  color: blue;
+} */
+/* [title^="my"]{
+  color: blue;
+} */
+/* [title$="one"]{
+  color: blue;
+} */
+/* [title*="my"]{
+  color: blue;
+} */
+
