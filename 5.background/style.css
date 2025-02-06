@@ -1,0 +1,12 @@
+#mydiv{
+  width: 700px;
+  height: 450px;
+  border: 2px solid black;
+  margin: 40px auto;
+  /* background-color: yellow; */
+  background-image: url('./sachin.PNG');
+  background-repeat: no-repeat;
+  /* background-position: right bottom; */
+  background-size: 80% 50%;
+  background-attachment: fixed;
+}
