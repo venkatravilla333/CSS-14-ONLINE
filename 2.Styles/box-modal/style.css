@@ -1,0 +1,37 @@
+.one{
+  box-sizing: content-box;
+  width: 400px;
+  box-sizing: content-box;
+  height: 400px;
+  border: 10px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+.two{
+  box-sizing: border-box;
+  width: 100%;
+  border-left: 10px solid #000;
+  border-right: 10px solid #000;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding: 20%;
+  margin-left:10px;
+  margin-right:10px;
+  height: 200px;
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top:10px;
+  margin-bottom:10px; 
+}
