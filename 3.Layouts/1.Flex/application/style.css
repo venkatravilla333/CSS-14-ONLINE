@@ -27,21 +27,18 @@ body{
   min-height: 80px;
   background-color: black;
   display: flex;
-  align-items: center;
-  /* padding-left: 50px;
-  justify-content: space-around; */
- 
+  align-items: center; 
 }
 
 .image-div{
-  flex-basis: 30%;
+  flex-basis: 40%;
   padding-left: 40px;
   display: flex;
   align-items: center;
 }
 
 .nav-links{
-  flex-basis: 70%;
+  flex-basis: 60%;
   display: flex;
   justify-content: space-around;
 }
@@ -64,7 +61,7 @@ a{
 
 .product{
   /* border: 2px solid black; */
-  width: 300px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
