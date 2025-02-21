@@ -1,0 +1,45 @@
+
+@keyframes myanimation {
+    /* from{
+      background-color: green;
+    }
+    to{
+      background-color: blue;
+    } */
+     10%{
+      background-color: aqua;
+     }
+     20%{
+      background-color: rgb(255, 174, 0);
+     }
+     30%{
+      background-color: rgb(0, 8, 255);
+     }
+     40%{
+      background-color: rgb(77, 255, 0);
+     }
+     50%{
+      background-color: rgb(0, 191, 255);
+     }
+     60%{
+      background-color: rgb(0, 191, 255);
+      /* width: 800px;
+      height: 400px; */
+     }
+}
+
+
+#mydiv{
+   animation-name: myanimation;
+   animation-duration: 10s;
+   animation-delay: 2s;
+   /* animation-iteration-count: 3; */
+   animation-direction: alternate-reverse;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-out;
+   animation-play-state: running;
+   background-color: red;
+   width: 500px;
+   height: 200px;
+   margin: 50px auto; 
+}

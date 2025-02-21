@@ -1,0 +1,57 @@
+
+
+/* absolute units  */
+
+
+/* #parent{
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 20px auto;
+}
+#child{
+  width: 600px;
+  height: 150px;
+  border: 2px solid rgb(255, 0, 0);
+  margin: 20px auto;
+} */
+
+/* relative units  */
+
+/* percentage  */
+
+/* #parent{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 20px auto;
+}
+#child{
+  width: 50%;
+  height: 150px;
+  border: 2px solid rgb(255, 0, 0);
+} */
+
+/* #parent{
+  width: 90vw;
+  height: 200px;
+  border: 2px solid black;
+} */
+/* #child{
+  width: 100vw;
+  height: 150px;
+  border: 2px solid rgb(255, 0, 0);
+} */
+
+/* #parent{
+  font-size: 3rem;
+} */
+
+#parent{
+  font-size: 5px;
+}
+
+#child{
+  font-size: 2em;
+  border: 2em solid black;
+}
